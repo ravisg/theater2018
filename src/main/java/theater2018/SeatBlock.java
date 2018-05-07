@@ -79,6 +79,14 @@ public class SeatBlock {
 	public void setBlockStartTime(long blockStartTime) {
 		this.blockStartTime = blockStartTime;
 	}
+
+
+
+	@Override
+	public String toString() {
+		return "SeatBlock [startSeatNumber=" + startSeatNumber + ", numSeats=" + numSeats + ", status=" + status
+				+ ", blockStartTime=" + blockStartTime + ", previous=" + previous + ", next=" + next + "]";
+	}
 	
 	
 	

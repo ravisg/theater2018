@@ -2,11 +2,11 @@ package theater2018;
 
 public interface TicketService {
 	
-	int numSeatsAvailable(int timeOfAction);
+	int numSeatsAvailable();
 
-	SeatHold findAndHoldSeats(int numSeats, String customerEmail, int timeOfAction); 
+	SeatHold findAndHoldSeats(int numSeats, String customerEmail); 
 
-	String reserveSeats(String seatHoldId, String customerEmail, int timeOfAction); 
+	String reserveSeats(String seatHoldId, String customerEmail); 
 
 
 }
